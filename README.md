@@ -10,3 +10,56 @@ An End-to-End Implementation for Building, Deploying, and Automating a Credit Ri
 
 3. What are the key trade-offs between using a simple, interpretable model (like Logistic Regression with WoE) versus a complex, high-performance model (like Gradient Boosting) in a regulated financial context?
 - Simple models are easier to explain and defend to regulators, even if they sacrifice some accuracy. Complex models may perform better but can be a black box, which raises concerns around fairness, transparency, and compliance. It’s a balance between performance and trust.
+
+## Project Directory Structure
+
+The repository is organized into the following directories:
+
+`.github/workflows/`: Contains configurations for GitHub Actions, enabling continuous integration and automated testing.
+
+`api`: Contains the implementation of the machine learning model API, allowing interaction with the model through RESTful endpoints.
+
+`notebooks/`: Jupyter notebooks used for tasks such as data exploration, feature engineering, and preliminary modeling.
+
+`scripts/`: Python scripts for data preprocessing, feature extraction, and the implementation of the credit scoring model.
+
+`tests/`: Unit tests to ensure the correctness and robustness of the implemented model and data processing logic.
+
+
+
+## Installation Instructions
+
+To run the project locally, follow these steps:
+
+1. Clone the Repository:
+>>>>
+    git clone https://github.com/korerima/Credit-Risk-Probability-Model.git`
+
+    cd Credit-Risk-Probability-Model
+>>>>
+
+2. Set up the Virtual Environment:
+
+Create a virtual environment to manage the project's dependencies:
+
+**For Linux/MacOS**
+
+>>>
+    python3 -m venv .venv
+
+    source .venv/bin/activate  
+>>>
+
+**For Windows:**
+
+>>>
+    python -m venv .venv
+    .venv\Scripts\activate
+>>>
+
+3. Install Dependencies:
+
+Install the required Python packages by running:
+>>>
+    pip install -r requirements.txt
+>>>
