@@ -1,1 +1,28 @@
 .env
+# files to ignore
+/data
+# Excel files
+.xlsx
+.csv 
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+# Python bytecode files
+*.pyc
+# Virtual environment directories
+.env/
+# Logs
+*.log
+# IDE specific files
+.vscode/
+# System files
+.DS_Store
+# Backup files
+*.bak
+# Temporary files
+*.tmp
+# Python cache files
+__pycache__/
+# Pytest cache
+.pytest_cache/
+# Coverage reports
+htmlcov/
